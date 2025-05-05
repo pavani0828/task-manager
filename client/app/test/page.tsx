@@ -1,15 +1,9 @@
-import AddTaskModal from "@/components/AddTaskModal";
-import { DashboardComponent } from "@/components/Dashboard";
-import DeleteModal from "@/components/DeleteModal";
-export default function Home() {
+import React from 'react'
 
-
-
+const page = () => {
   return (
-    <>
-      <DashboardComponent />
-      <AddTaskModal />
-      <DeleteModal />
-    </>
-  );
+    <div>page</div>
+  )
 }
+
+export default page
